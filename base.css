@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0; /* Adicionado para garantir que não haja espaçamento extra */
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adicionado para centralizar verticalmente */
+    min-height: 100vh; /* Adicionado para preencher toda a altura da tela */
+}
+
+.wrapper {
+    width: 90%; /* Alterado para uma largura mais responsiva */
+    max-width: 1200px; /* Adicionado limite máximo de largura */
+    display: flex;
+    flex-direction: column; /* Alterado para column para melhor adaptação */
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-radius: 10px; /* Adicionado para arredondar as bordas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionado sombra */
+}
+
+.menu {
+    width: 100%; /* Alterado para ocupar a largura total */
+    background-color: aqua;
+    padding: 10px 20px; /* Ajustado para um espaçamento mais uniforme */
+    border-top-left-radius: 10px; /* Adicionado para combinar com as bordas da wrapper */
+    border-top-right-radius: 10px;
+}
+
+.main {
+    flex: 1; /* Alterado para expandir e preencher o espaço restante */
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    border-top-left-radius: 10px; /* Adicionado para combinar com as bordas da wrapper */
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    border-bottom-left-radius: 10px; /* Adicionado para combinar com as bordas da wrapper */
+    border-bottom-right-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #dddddd; /* Adicionando borda à tabela */
+    align-items: center;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
